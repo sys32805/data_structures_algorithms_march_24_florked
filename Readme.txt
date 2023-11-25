@@ -1,0 +1,1 @@
+This is repo made for adding the data structure related questions and there solutions
