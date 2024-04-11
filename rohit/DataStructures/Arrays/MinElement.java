@@ -6,18 +6,16 @@ public void FindMinElement(int[] m, int higest ){
   boolean flag = false ;
   boolean Infinite = true;
   Arrays.sort(m);
+  /*
+   * min and max logic are vica versa kind of same hence avaoided wrinting same code 2'ice
+   */
   while(Infinite){
       ++i;
-      // System.out.println("rohit"+ m[i]+i);
       if(higest < m[i]){
         higest = m[i];
         flag = true;
       }
       if(flag && (m.length-1) == i){
-      //   if(higest < m[i]){
-      //   higest = m[i];
-      //   flag = true;
-      // }
         System.out.println(higest);
         break;
       }
