@@ -12,27 +12,22 @@ import java.util.Arrays;
 public class Plus_One {
   public int[] plusOne(int[] digits) {
     int i = 0;
-    int a[] = new int[digits.length+1];
-    //int lasIndex = digits.length - 1;
-    int lastElement = digits[digits.length - 1];
-    int counter = -1;
-    for(i = 0; i < digits.length ; i++){
-      if(digits[i] == 9){
-        counter++;
-        break;
+    int a[] = new int[digits.length + 1];
+    for (i = digits.length - 1; i >= 0; i--) {
+      if (digits[i] < 9) {
+        digits[i]++;
+        return digits;
+      } else if (digits[i] == 9) {
+        digits[i] = 0;
       }
     }
-    // for(){
-
-    // }
-    System.out.print(counter);
-    return digits;
+    a[0] = 1;
+    return a;
   }
   public static void main(String[] args){
-    int digits[] = {9};
+    int digits[] = { 1, 2, 3};
     Plus_One m = new Plus_One();
-    m.plusOne(digits);
-    // System.out.print(Arrays.toString(m.plusOne(digits)));
+    int val[] = m.plusOne(digits);
 
   }
 }
