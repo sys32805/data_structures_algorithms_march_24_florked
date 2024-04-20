@@ -34,7 +34,6 @@ public class insertion {
     }
     return index;
   }
-//[1] t 2
   public static void main(String[] args) {
     insertion m = new insertion();
     int nums[] ={1,3,4,3,5};
