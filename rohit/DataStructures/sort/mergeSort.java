@@ -40,7 +40,7 @@ public class mergeSort {
         k++;
         j++;
       }
-      System.out.println(Arrays.toString(a));
+      // System.out.println(Arrays.toString(a));
   }
     public void merge_sort(int startIndex , int lastIndex, int[] a){
       if(startIndex < lastIndex){
@@ -56,5 +56,6 @@ public class mergeSort {
     int startIndex = 0;
     int lastIndex  = a.length-1;
     ob.merge_sort(startIndex,lastIndex,a);
+    System.out.println(Arrays.toString(a));
   }
 }
