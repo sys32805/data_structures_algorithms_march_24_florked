@@ -39,7 +39,7 @@ public class search_an_element_in_a_sorted_and_pivoted_array {
           return;
         }
       }
-      return;
     }
+    return;
   }
 }
