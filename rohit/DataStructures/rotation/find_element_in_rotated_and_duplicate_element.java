@@ -12,6 +12,9 @@ public class find_element_in_rotated_and_duplicate_element {
       } else if(a[mid] < a[endIndex]) {
         endIndex = mid;
       } else {
+        /*
+         * This part used for preventing the Duplicacy
+         */
         endIndex = endIndex - 1;
       }
     }
