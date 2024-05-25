@@ -1,5 +1,3 @@
-package rohit.datastructures.sort;
-
 import java.util.Arrays;
 public class mergeSort {
   public void sort(int startIndex,int midIndex,int lastIndex,int[] a){

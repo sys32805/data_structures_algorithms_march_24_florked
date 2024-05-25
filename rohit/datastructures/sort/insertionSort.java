@@ -1,4 +1,3 @@
-package rohit.datastructures.sort;
 /*
 From wikipedia
 link:https://en.wikipedia.org/wiki/Insertion_sort#Algorithm

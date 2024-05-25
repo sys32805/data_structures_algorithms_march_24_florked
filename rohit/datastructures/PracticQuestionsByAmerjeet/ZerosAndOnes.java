@@ -1,5 +1,3 @@
-package rohit.datastructures.PracticQuestionsByAmerjeet;
-
 import java.util.Arrays;
 
 public class ZerosAndOnes {

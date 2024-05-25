@@ -1,5 +1,4 @@
 package rohit.datastructures.rotation;
-
 import java.util.Arrays;
 
 public class search_an_element_in_a_sorted_and_pivoted_array {

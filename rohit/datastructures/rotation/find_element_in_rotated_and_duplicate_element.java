@@ -1,5 +1,4 @@
 package rohit.datastructures.rotation;
-
 public class find_element_in_rotated_and_duplicate_element {
   /*
    * Code to find the pivot element.

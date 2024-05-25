@@ -1,4 +1,3 @@
-package rohit.datastructures.Arrays;
 // target element in un sorted array
 import java.util.*;
 class TargetElement {

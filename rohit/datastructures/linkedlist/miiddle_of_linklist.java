@@ -1,4 +1,3 @@
-package rohit.datastructures.linklist;
 public class miiddle_of_linklist {
  Node head;
   class Node{
@@ -27,7 +26,7 @@ public class miiddle_of_linklist {
     while (ptr1.next != null && ptr2.next.next != null) {
       ptr1 = ptr1.next;
       ptr2 = ptr2.next.next;
-    }1
+    }
     System.err.println("Middle Element is " + ptr1.data );
   }
   public static void main(String a[]){

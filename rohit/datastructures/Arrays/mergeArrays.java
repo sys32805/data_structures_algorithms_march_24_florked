@@ -1,4 +1,3 @@
-package rohit.datastructures.Arrays;
 import java.util.Arrays;
 
 /*Solution is exact as taught in leacture

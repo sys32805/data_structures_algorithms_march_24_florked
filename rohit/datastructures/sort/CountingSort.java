@@ -1,5 +1,3 @@
-package rohit.datastructures.sort;
-
 import java.util.Arrays;
 
 /**

@@ -1,5 +1,3 @@
-package rohit.datastructures.sort;
-
 public class BinarySearch {
   public int binary_search(int[] a){
     int left = 0;

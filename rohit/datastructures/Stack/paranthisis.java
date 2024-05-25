@@ -1,5 +1,3 @@
-package rohit.datastructures.Stack;
-
 import java.util.Stack;
 
 public class paranthisis {
