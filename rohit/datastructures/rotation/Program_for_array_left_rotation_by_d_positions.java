@@ -2,7 +2,7 @@
   Given an array of integers arr[] of size N and an integer,
   the task is to rotate the array elements to the left by d positions.
  */
-package rohit.DataStructures.rotation;
+package rohit.datastructures.rotation;
 
 import java.util.Arrays;
 

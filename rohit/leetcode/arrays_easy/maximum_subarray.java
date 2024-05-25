@@ -8,11 +8,7 @@ public class maximum_subarray {
       return a[0];
     }
     for (i = 1; i <= j ; i++){
-      if(current_sum < 0){
-        current_sum = a[i];
-      } else {
-        current_sum = current_sum + a[i];
-      }
+     current_sum =  current_sum < 0  ?  a[i] : current_sum + a[i];
       if(current_sum > new_max){
        new_max = current_sum;
       }

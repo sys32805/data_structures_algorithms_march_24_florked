@@ -1,4 +1,4 @@
-package rohit.DataStructures.sort;
+package rohit.datastructures.sort;
 
 import java.util.Arrays;
 

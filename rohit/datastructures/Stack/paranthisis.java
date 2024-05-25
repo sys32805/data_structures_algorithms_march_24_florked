@@ -1,4 +1,4 @@
-package rohit.DataStructures.Stack;
+package rohit.datastructures.Stack;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package rohit.DataStructures.rotation;
+package rohit.datastructures.rotation;
 
 import java.util.Arrays;
 

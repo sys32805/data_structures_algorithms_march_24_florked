@@ -1,4 +1,4 @@
-package rohit.DataStructures.sort;
+package rohit.datastructures.sort;
 
 public class BinarySearch {
   public int binary_search(int[] a){

@@ -1,4 +1,4 @@
-package rohit.DataStructures.PracticQuestionsByAmerjeet;
+package rohit.datastructures.PracticQuestionsByAmerjeet;
 
 import java.util.Arrays;
 
