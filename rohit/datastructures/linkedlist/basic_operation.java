@@ -1,3 +1,4 @@
+import java.util.Currency;
 
 public class basic_operation {
   public class Node {
@@ -92,13 +93,52 @@ public class basic_operation {
   public void MiddleNode() {
     Node slow = head;
     Node fast = head;
-    while(slow != null  && fast.next != null){
+    while(fast != null  && fast.next != null){
       slow = slow.next;
       fast = fast.next.next;
     }
     System.err.println(" Middle node of list is " + slow.data );
   }
 
+  public void Swapnodes(int a , int b) {
+   /* Input:  6 -> 4 -> 3 -> 2 -> 1 -> 5
+      Output: 6 -> 2 -> 3 -> 4 -> 1 -> 5
+      // Output: 4 -> 6 -> 2 -> 3 -> 5 -> 1
+    */
+    Node current = head;
+    Node currentA = head;
+    Node temp = null;
+    Node previousA = null;
+    Node currentB = head;
+    Node previousB = null;
+    while(currentA != null && currentA.data != a){
+      previousA = currentA;
+      currentA = currentA.next;
+      System.err.println("List from A is " + currentA.data);
+      // System.err.println("List a-> from A is " + previousA.data);
+    }
+    while(currentB != null && currentB.data != b){
+      previousB = currentB;
+      currentB = currentB.next;
+      System.err.println("List from B is " + currentB.data);
+      // System.err.println("List p-> from B is " + previousB.data);
+    }
+    if(currentA != null && currentB != null){
+      if(previousA != null){
+        previousA.next= currentB;
+      } else {
+        head = currentB;
+      }
+      if(previousB != null){
+        previousB.next= currentA;
+      } else {
+        head = currentA;
+      }
+      temp = currentA.next;
+      currentA.next = currentB.next;
+      currentB.next = temp;
+    }
+  }
   public void remmoveDuplicate() {
 
   }
@@ -110,6 +150,7 @@ public class basic_operation {
     ob.addnode(4);
     ob.addnode(6);
     ob.addnode(1);
+    ob.addnode(3);
     System.err.println("<---- whole data :----->");
     ob.printNode();
     System.err.println("<---- insertNodeAtPosition :----->");
@@ -128,6 +169,16 @@ public class basic_operation {
     System.err.println(" Implement an algorithm to find the middle element of a linked list ");
     ob.MiddleNode();
     ob.remmoveDuplicate();
+    /*Question: Swap Nodes in Pairs
+      Given a singly linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the nodes, only nodes themselves may be changed.
+      Example:
+      Input: 1 -> 2 -> 3 -> 4
+      Output: 2 -> 1 -> 4 -> 3
+    */
+    System.err.println("Swap Nodes in Pairs");
+    ob.Swapnodes(4 , 2);
+    ob.printNode();
   }
+
 
 }
