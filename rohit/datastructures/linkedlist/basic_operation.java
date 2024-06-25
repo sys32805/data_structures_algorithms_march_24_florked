@@ -114,13 +114,13 @@ public class basic_operation {
     while(currentA != null && currentA.data != a){
       previousA = currentA;
       currentA = currentA.next;
-      System.err.println("List from A is " + currentA.data);
+      // System.err.println("List from A is " + currentA.data);
       // System.err.println("List a-> from A is " + previousA.data);
     }
     while(currentB != null && currentB.data != b){
       previousB = currentB;
       currentB = currentB.next;
-      System.err.println("List from B is " + currentB.data);
+      // System.err.println("List from B is " + currentB.data);
       // System.err.println("List p-> from B is " + previousB.data);
     }
     if(currentA != null && currentB != null){
@@ -140,7 +140,18 @@ public class basic_operation {
     }
   }
   public void remmoveDuplicate() {
-
+   Node current = head;
+   while(current != null){
+      Node eachIndex = current;
+        while(eachIndex.next != null){
+          if(eachIndex.next.data == current.data){
+             eachIndex.next = eachIndex.next.next;
+          } else{
+            eachIndex = eachIndex.next;
+          }
+        }
+        current = current.next;
+    }
   }
   public static void main(String args[]){
     basic_operation ob = new basic_operation();
@@ -168,15 +179,18 @@ public class basic_operation {
     ob.printNode();
     System.err.println(" Implement an algorithm to find the middle element of a linked list ");
     ob.MiddleNode();
-    ob.remmoveDuplicate();
     /*Question: Swap Nodes in Pairs
-      Given a singly linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the nodes, only nodes themselves may be changed.
-      Example:
-      Input: 1 -> 2 -> 3 -> 4
-      Output: 2 -> 1 -> 4 -> 3
+    Given a singly linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the nodes, only nodes themselves may be changed.
+    Example:
+    Input: 1 -> 2 -> 3 -> 4
+    Output: 2 -> 1 -> 4 -> 3
     */
-    System.err.println("Swap Nodes in Pairs");
-    ob.Swapnodes(4 , 2);
+    // System.err.println("Swap Nodes in Pairs");
+    // ob.Swapnodes(4 , 2);
+    ob.printNode();
+    System.err.println("linklist after removal of duplicate items");
+    ob.remmoveDuplicate();
+    System.err.println("After removal of common values");
     ob.printNode();
   }
 
