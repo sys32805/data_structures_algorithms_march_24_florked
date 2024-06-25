@@ -153,6 +153,42 @@ public class basic_operation {
         current = current.next;
     }
   }
+
+    public void mergerOfTwoList(basic_operation.Node newNode2nd) {
+      // System.err.println(" Data -> " + newNode2nd.data + " Data -> " +newNode2nd.next.data);
+      // System.err.println(" Data -> " + head.data + " Data -> " +head.next.data);
+      Node list1 = head;
+      Node list2 = newNode2nd;
+      Node list3 = new Node(0, null);
+      Node current = list3;
+      while(list1 != null && list2 != null){
+        if(list1.data <= list2.data){
+          current.next = list1;
+          list1 = list1.next;
+        } else {
+          current.next = list2;
+          list2 = list2.next;
+        }
+        current = current.next;
+      }
+      while (list1 != null) {
+        current.next = list1;
+        list1 = list1.next;
+        current = current.next ;
+      }
+      while (list2 != null) {
+        current.next = list2;
+        list2 = list2.next;
+        current = current.next;
+      }
+      Node TER = list3.next;
+      while(TER != null){
+        System.err.print(" Data -> " + TER.data);
+        TER = TER.next;
+      }
+      System.err.println();
+    }
+
   public static void main(String args[]){
     basic_operation ob = new basic_operation();
     ob.addnode(1);
@@ -192,7 +228,16 @@ public class basic_operation {
     ob.remmoveDuplicate();
     System.err.println("After removal of common values");
     ob.printNode();
+    System.err.println("before merge of linklist");
+    Node newNode2nd = ob.new Node(54, null);
+    newNode2nd.next = ob.new Node(55, null);
+    newNode2nd.next.next = ob.new Node(56, null);
+    ob.printNode();
+    /*
+     * Sample second node for merger.
+     */
+    ob.mergerOfTwoList(newNode2nd);
+    // ob.printNode();
   }
-
 
 }
