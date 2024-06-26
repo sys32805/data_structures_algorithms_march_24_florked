@@ -48,15 +48,35 @@ public class basic_operation_dublylinklist {
     ob.insertNode(2);
     ob.insertNode(3);
     ob.insertNode(4);
-    System.err.println("All the elements in doubly linklist");
+    System.err.println(" All the elements in doubly linklist ");
     ob.printNode();
-    System.err.println("Insert at begining in the linklist");
+    System.err.println(" Insert at begining in the linklist ");
     ob.insertAtBegining(0);
     ob.printNode();
-    System.err.println("Insert at end in the linklist");
+    System.err.println(" Insert at end in the linklist ");
     ob.insertAtEnd(5);
     ob.printNode();
+    System.err.println(" Deletion of element based on key ");
+    ob.deleteNodeAtPosition(4);
+    ob.printNode();
 
+  }
+
+  public void deleteNodeAtPosition(int key) {
+    Node currNode  = head;
+    int count  = 1;
+    while(currNode.next !=  null){
+      if(count == key){
+        System.err.println(" Element which about to delete is " + currNode.data);
+        previous.next = currNode.next;
+        return;
+      }
+      count++;
+      previous = currNode;
+      currNode = currNode.next;
+      // System.err.println("Privious element" + previous.data);
+      // System.err.println("Next element" + currNode.next.data);
+    }
   }
 
   public void insertAtEnd(int data) {
@@ -64,7 +84,6 @@ public class basic_operation_dublylinklist {
     Node current = head;
     while(current.next != null){
       current = current.next;
-      System.err.println(current.data);
     }
     current.next = lastElement;
     lastElement.previous = current;
@@ -87,7 +106,7 @@ public class basic_operation_dublylinklist {
   public void printNode() {
     Node current = head;
     while (current != null) {
-      System.err.print("Data-next -> " + current.data);
+      System.err.print(" Data-next -> " + current.data);
       System.err.println();
       current = current.next;
     }
