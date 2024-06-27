@@ -59,7 +59,21 @@ public class basic_operation_dublylinklist {
     System.err.println(" Deletion of element based on key ");
     ob.deleteNodeAtPosition(4);
     ob.printNode();
+    System.err.println(" Reverse a dubly linklist ");
+    ob.reversNodes();
+    // ob.printNode();
+  }
 
+  private void reversNodes() {
+    Node current = head;
+    while(current.next != null){
+      current = current.next;
+      continue;
+    }
+    while(current != null){
+      System.err.println(" Reverse data is " + current.data);
+      current = current.previous;
+    }
   }
 
   public void deleteNodeAtPosition(int key) {
