@@ -1,6 +1,10 @@
 /**
  * disapperardNumber
  */
+
+/*
+ * This approch use o(n) and o(n) space and time
+ */
 import java.util.*;
 public class disapperardNumber {
   public static void main(String[] args){

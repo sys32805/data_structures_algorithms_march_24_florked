@@ -1,5 +1,3 @@
-package rohit.leetcode.arrays_easy;
-
 import java.util.ArrayList;
 
 public class intersection {
@@ -21,7 +19,7 @@ public class intersection {
           list1.remove(Integer.valueOf(j));
         }
       }
-    }
+    } 
     System.err.println(list2);
   }
 }
