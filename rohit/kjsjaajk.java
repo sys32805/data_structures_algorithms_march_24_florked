@@ -11,6 +11,7 @@ class node{
 }
 public class kjsjaajk {
   static node head;
+  static node head1;
   // static{
   //   List<Integer> ob = new ArrayList<>();
   //   int a = 1009;
@@ -32,24 +33,54 @@ public class kjsjaajk {
   //   System.out.println(ob);
   // }
     public static void main(String[] args){
-      head  = new node(1, null);
+      head  = new node(98, null);
       head.next = new node(2,null);
-      head.next.next = new node(3, null);
+      head.next.next = new node(32, null);
+
       System.out.print("Before reversing the node");
 
-      printNodes(head);
-      node prv = reverseNode(head);
-      addNumbers(prv);
-      printNodes(prv);
+      head1 = new node(49, null);
+      head1.next = new node(50, null);
+      head1.next.next = new node(60, null);
+      // printNodes(head);
+      // node prv = reverseNode(head);
+      // addNumbers(head);
+      // printNodes(head);
+      mergeNode(head , head1);
+  }
+
+  static void mergeNode(node head, node head1){
+    List<Integer> ob  = new ArrayList<>();
+    node current = head;
+    node lastNode  = null;
+    while(current.next != null){
+      current = current.next;
+    }
+    current.next = head1;
+    current = head;
+    printNodes(head);
+    while(current != null){
+      ob.add(current.data);
+      current = current.next;
+    }
+    Collections.sort(ob);
+    System.out.print(ob);
+    current = head;
+    int index = 0;
+    while (current != null) {
+      current.data = ob.get(index++);
+      current = current.next;
+    }
+    current = head;
+    printNodes(head);
   }
 
   static void addNumbers(node head){
     int num2   = 100;
     node current  = head;
-    System.err.print("Adding the 99 to each values");
     while(current != null){
       int num = addNumbers(99 ,current.data);
-      System.out.print(" -> " + num);
+      current.data = num;
       current = current.next;
     }
   }
