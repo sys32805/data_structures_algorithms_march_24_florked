@@ -1,3 +1,5 @@
+package rohit.leetcode.arrays_easy;
+
 /**
  * disapperardNumber
  */

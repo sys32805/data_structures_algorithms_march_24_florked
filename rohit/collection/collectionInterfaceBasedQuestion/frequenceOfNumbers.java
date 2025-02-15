@@ -17,7 +17,7 @@ class frequenceOfNumbers {
         map.put(c, 1);
       }
     }
-  
+
 // System.err.println();
     for(int  i = 1 ; i <= a.length ; i++){
       if(map.containsKey(i)){
@@ -28,3 +28,5 @@ class frequenceOfNumbers {
     }
   }
 }
+// a
+// b

@@ -10,6 +10,7 @@ public class ArrayListExample {
     list.add("Apple");
     list.add("Banana");
     list.add("Cherry");
+    list.co
 
     // Displaying the ArrayList
     System.out.println("ArrayList elements: " + list);

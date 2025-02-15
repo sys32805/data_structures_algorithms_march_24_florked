@@ -1,0 +1,539 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "mehtodHiding",
+      "request": "launch",
+      "mainClass": "rohit.Concept.mehtodHiding",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "Interview",
+      "request": "launch",
+      "mainClass": "rohit.collection.Interview",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "StreamFilterMap",
+      "request": "launch",
+      "mainClass": "rohit.Java8.lambda.StreamFilterMap",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "StreamFilterIfAndElse",
+      "request": "launch",
+      "mainClass": "rohit.Java8.lambda.StreamFilterIfAndElse",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "streamFilterCollect",
+      "request": "launch",
+      "mainClass": "rohit.Java8.lambda.streamFilterCollect",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "LambdaClassAndMethodRefferences",
+      "request": "launch",
+      "mainClass": "rohit.Java8.lambda.LambdaClassAndMethodRefferences",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListIterator",
+      "request": "launch",
+      "mainClass": "rohit.Java8.Iterator.ArrayListIterator",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "SupplierInterface",
+      "request": "launch",
+      "mainClass": "rohit.Java8.lambda.SupplierInterface",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "ConsumerInterface",
+      "request": "launch",
+      "mainClass": "rohit.Java8.lambda.ConsumerInterface",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "predicateFunctionalInterface",
+      "request": "launch",
+      "mainClass": "rohit.Java8.lambda.predicateFunctionalInterface",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "functionalInterfaceConcept",
+      "request": "launch",
+      "mainClass": "rohit.Java8.lambda.functionalInterfaceConcept",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "FindElmentHard",
+      "request": "launch",
+      "mainClass": "rohit.leetcode.arrays_easy.FindElmentHard",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "search",
+      "request": "launch",
+      "mainClass": "rohit.search",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "happyNumber",
+      "request": "launch",
+      "mainClass": "rohit.leetcode.arrays_easy.happyNumber",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "monotonic",
+      "request": "launch",
+      "mainClass": "rohit.monotonic",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "longestSubstring",
+      "request": "launch",
+      "mainClass": "rohit.longestSubstring",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "inDepthAlgo",
+      "request": "launch",
+      "mainClass": "rohit.algorithums.inDepthAlgo",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "firstRepetingChar",
+      "request": "launch",
+      "mainClass": "rohit.interview.firstRepetingChar",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "addTwonumbers",
+      "request": "launch",
+      "mainClass": "rohit.addTwonumbers",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "PrintMyName",
+      "request": "launch",
+      "mainClass": "rohit.codingbat.PrintMyName",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "rohit.codingbat.Test",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "minBitFlips",
+      "request": "launch",
+      "mainClass": "rohit.bit_manipulation.minBitFlips",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "NumToBinary",
+      "request": "launch",
+      "mainClass": "rohit.bit_manipulation.NumToBinary",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "NumToBinary",
+      "request": "launch",
+      "mainClass": "rohit.Bit_manipulation.NumToBinary",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "Length_of_Last_Word",
+      "request": "launch",
+      "mainClass": "Length_of_Last_Word",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "find_element_in_rotated_and_duplicate_element",
+      "request": "launch",
+      "mainClass": "rohit.datastructures.rotation.find_element_in_rotated_and_duplicate_element",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "disapperardNumber",
+      "request": "launch",
+      "mainClass": "rohit.leetcode.arrays_easy.disapperardNumber",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "productExceptSelf",
+      "request": "launch",
+      "mainClass": "rohit.leetcode.arrays_easy.productExceptSelf",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "twoSum",
+      "request": "launch",
+      "mainClass": "rohit.leetcode.arrays_easy.twoSum",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "strstr",
+      "request": "launch",
+      "mainClass": "rohit.datastructures.String.strstr",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "dllInsert",
+      "request": "launch",
+      "mainClass": "rohit.datastructures.DLL.dllInsert",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "deleteANode",
+      "request": "launch",
+      "mainClass": "deleteANode",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "deleteANode",
+      "request": "launch",
+      "mainClass": "rohit.datastructures.linkedlist.deleteANode",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "TargetSum",
+      "request": "launch",
+      "mainClass": "rohit.leetcode.arrays_easy.TargetSum",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "kjsjaajk",
+      "request": "launch",
+      "mainClass": "rohit.kjsjaajk",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "rohit.Solution",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "LongestSubstringWithoutRepeatingCharacters",
+      "request": "launch",
+      "mainClass": "rohit.slidingWindow.LongestSubstringWithoutRepeatingCharacters",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "lengthOfLongestSubstring",
+      "request": "launch",
+      "mainClass": "rohit.slidingWindow.lengthOfLongestSubstring",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "FrequencyOfMostFrequentElement",
+      "request": "launch",
+      "mainClass": "rohit.slidingWindow.FrequencyOfMostFrequentElement",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "smallestSubarray",
+      "request": "launch",
+      "mainClass": "rohit.slidingWindow.smallestSubarray",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "abc",
+      "request": "launch",
+      "mainClass": "rohit.slidingWindow.abc",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "printSubarrays",
+      "request": "launch",
+      "mainClass": "rohit.leetcode.arrays_easy.printSubarrays",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "frequenceOfNumbers",
+      "request": "launch",
+      "mainClass": "rohit.collection.collectionInterfaceBasedQuestion.frequenceOfNumbers",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "palindrom",
+      "request": "launch",
+      "mainClass": "rohit.datastructures.String.palindrom",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "pascalTranglre",
+      "request": "launch",
+      "mainClass": "rohit.datastructures.Arrays.pascalTranglre",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "Program_for_array_left_rotation_by_d_positions",
+      "request": "launch",
+      "mainClass": "rohit.datastructures.rotation.Program_for_array_left_rotation_by_d_positions",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "RotateElementBy_k",
+      "request": "launch",
+      "mainClass": "rohit.collection.collectionInterfaceBasedQuestion.RotateElementBy_k",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "matrixAddition",
+      "request": "launch",
+      "mainClass": "rohit.matrix.matrixAddition",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "SetMatrixZero",
+      "request": "launch",
+      "mainClass": "rohit.matrix.SetMatrixZero",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "rohit.leetcode.arrays_easy.Solution",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "rohit.test",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "intersection",
+      "request": "launch",
+      "mainClass": "intersection",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "disapperardNumber",
+      "request": "launch",
+      "mainClass": "disapperardNumber",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "ThirdMax",
+      "request": "launch",
+      "mainClass": "ThirdMax",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "ThirdMax",
+      "request": "launch",
+      "mainClass": "rohit.leetcode.ThirdMax",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "waterBottal",
+      "request": "launch",
+      "mainClass": "waterBottal",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "BinaryTree",
+      "request": "launch",
+      "mainClass": "rohit.datastructures.tree.BinaryTree",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "sumArrayElements",
+      "request": "launch",
+      "mainClass": "sumArrayElements",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "Fibonacci",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "print",
+      "request": "launch",
+      "mainClass": "print",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "factorial",
+      "request": "launch",
+      "mainClass": "factorial",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "intersection",
+      "request": "launch",
+      "mainClass": "rohit.leetcode.arrays_easy.intersection",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "MoveZeroes283",
+      "request": "launch",
+      "mainClass": "MoveZeroes283",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListExample",
+      "request": "launch",
+      "mainClass": "rohit.collection.ArrayListExample",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "TestJavaCollection1",
+      "request": "launch",
+      "mainClass": "rohit.collection.TestJavaCollection1",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "deleteElement",
+      "request": "launch",
+      "mainClass": "deleteElement",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "BoyerMooreRepetitiveNumber",
+      "request": "launch",
+      "mainClass": "BoyerMooreRepetitiveNumber",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "Plus_One",
+      "request": "launch",
+      "mainClass": "Plus_One",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "Single_Number_136",
+      "request": "launch",
+      "mainClass": "Single_Number_136",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "basic_calculator",
+      "request": "launch",
+      "mainClass": "basic_calculator",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "insertion",
+      "request": "launch",
+      "mainClass": "insertion",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "maximum_subarray",
+      "request": "launch",
+      "mainClass": "maximum_subarray",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "merge_arrays",
+      "request": "launch",
+      "mainClass": "merge_arrays",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "paranthisis",
+      "request": "launch",
+      "mainClass": "paranthisis",
+      "projectName": "Java_603c1f50"
+    },
+    {
+      "type": "java",
+      "name": "reverselinklist",
+      "request": "launch",
+      "mainClass": "reverselinklist",
+      "projectName": "Java_603c1f50"
+    }
+  ]
+}

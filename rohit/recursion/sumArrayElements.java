@@ -8,10 +8,11 @@ public class sumArrayElements {
   private int sumOfArrayElements(int[] a , int index) {
 
     int val = 0;
+    int temp = 0 ;
     if(index == a.length) {
       return 0 ;
     } else {
-      int temp = temp + sumOfArrayElements( a, index + 1 );
+       temp = temp + sumOfArrayElements( a, index + 1 );
       System.err.println(" The number is " + a[index]);
     }
     return val;

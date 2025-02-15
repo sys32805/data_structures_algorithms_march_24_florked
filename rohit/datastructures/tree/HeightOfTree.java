@@ -48,7 +48,7 @@ class BinaryTree {
     tree.root.left.right = new Node(5);
 
     System.out.println("Height of tree is "
-        + tree.maxDepth(tree.root));
++ tree.maxDepth(tree.root));
   }
 }
 
